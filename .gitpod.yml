@@ -1,0 +1,7 @@
+image: 
+    file: .gitpod.dockerfile
+tasks:
+    - init: npm install
+      command: node .
+ports:
+    - ports: 5000
