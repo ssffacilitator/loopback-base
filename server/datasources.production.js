@@ -1,8 +1,13 @@
+require('dotenv').config()
+
 module.exports = {
+    db: {
+        name: "db",
+        connector: "memory"
+    },
     mongo: {
-        url: "mongodb+srv://phortonssf:pedro1234@cluster0-0vx31.mongodb.net/test?retryWrites=true&w=majority",
+        url: process.env.DB_URL,
         connector: 'mongodb',
         name: "mongo"
-
     }
 }
