@@ -4,4 +4,4 @@ tasks:
     - init: npm install
       command: node .
 ports:
-    - ports: 5000
+    - port: 5000
