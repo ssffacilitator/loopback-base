@@ -4,6 +4,8 @@
         "connector": "memory"
     },
     "mongo": {
-        "connector": "mongodb"
+        "connector": "mongodb",
+        "name": "mongo"
+
     }
 }
